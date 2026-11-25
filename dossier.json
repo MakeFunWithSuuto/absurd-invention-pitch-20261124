@@ -1,4 +1,4 @@
 {
-  "entry": "The Couch That Coughs is a sofa whose cushions sense lost remotes, keys and loose change, then hack them up onto the rug with a wet, apologetic cough every time you stand.",
-  "program": "// One-Sentence Absurd Invention Pitch — writes the chosen pitch to /output/entry.txt.\nimport { mkdirSync, writeFileSync } from \"node:fs\";\n\nconst pitch =\n  \"The Couch That Coughs is a sofa whose cushions sense lost remotes, keys and loose change, then hack them up onto the rug with a wet, apologetic cough every time you stand.\";\n\nmkdirSync(\"/output\", { recursive: true });\nwriteFileSync(\"/output/entry.txt\", pitch, \"utf8\");\n"
+  "entry": "For forgetting why you walked into a room, the Doorframe Stenograph clacks out whatever you mutter as you pass beneath it, then reads it back in courtroom monotone while you gape into the fridge: \"Scissors.\"",
+  "program": "// One-Sentence Absurd Invention Pitch — writes the chosen pitch to /output/entry.txt.\nimport { mkdirSync, writeFileSync } from \"node:fs\";\n\nconst pitch =\n  \"For forgetting why you walked into a room, the Doorframe Stenograph clacks out whatever you mutter as you pass beneath it, then reads it back in courtroom monotone while you gape into the fridge: \\\"Scissors.\\\"\";\n\nmkdirSync(\"/output\", { recursive: true });\nwriteFileSync(\"/output/entry.txt\", pitch, \"utf8\");\n"
 }

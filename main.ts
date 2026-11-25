@@ -2,7 +2,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const pitch =
-  "The Couch That Coughs is a sofa whose cushions sense lost remotes, keys and loose change, then hack them up onto the rug with a wet, apologetic cough every time you stand.";
+  "For forgetting why you walked into a room, the Doorframe Stenograph clacks out whatever you mutter as you pass beneath it, then reads it back in courtroom monotone while you gape into the fridge: \"Scissors.\"";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", pitch, "utf8");
